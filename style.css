@@ -1,0 +1,27 @@
+* {
+    margin    : 0;
+    padding   : 0;
+    margin-top: 0vh;
+    overflow-x: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display            : block;
+    color              : #ffffff;
+    text-align         : center;
+    padding            : 14px 16px;
+    text-decoration    : none;
+    transition-duration: 200ms;
+    font-family        : "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+li a:hover {
+    background-color   : #376281;
+    transition-duration: 200ms;
+    color              : white;
+    text-decoration    : underline;
+}
