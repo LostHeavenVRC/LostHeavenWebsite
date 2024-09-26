@@ -5,13 +5,21 @@
     overflow-x: hidden;
 }
 
+ul {
+    list-style-type : none;
+    margin          : 0;
+    padding         : 0;
+    overflow        : hidden;
+    background-color: #e2b4ff;
+}
+
 li {
     float: left;
 }
 
 li a {
     display            : block;
-    color              : #ffffff;
+    color              : #000000;
     text-align         : center;
     padding            : 14px 16px;
     text-decoration    : none;
@@ -20,8 +28,8 @@ li a {
 }
 
 li a:hover {
-    background-color   : #376281;
+    background-color   : #a87dc3;
     transition-duration: 200ms;
-    color              : white;
+    color              : rgb(0, 0, 0);
     text-decoration    : underline;
 }
