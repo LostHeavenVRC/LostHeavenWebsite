@@ -7,3 +7,38 @@
     --blurple: #3826bb;
     --Green: #00fcc1;
 }
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100dvw;
+    height: 100dvh;
+}
+
+.main {
+    background-color: var(--background-color);
+    width: 80dvw;
+    height: 80dvh;
+    border-radius: 4dvh;
+    box-shadow: var(--purple) 0dvh 0dvh 10dvh -3dvh inset;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top {
+    height: 15dvh;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    border-bottom: 0.5dvh solid var(--blurple);
+}
+
+.banner {
+    height: 12dvh;
+}
