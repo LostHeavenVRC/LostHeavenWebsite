@@ -28,6 +28,8 @@ body {
     flex-flow: column nowrap;
     justify-content: space-between;
     align-items: center;
+    border: solid 0.2vw var(--Green);
+    box-shadow: #3726bb8e 0 0 10vw 5vw;
 }
 
 .top {
